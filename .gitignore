@@ -1,12 +1,12 @@
-.env
-.env.*
-!.env.example
-
-venv/
+# Python
 backend/venv/
-node_modules/
-frontend/node_modules/
-
 __pycache__/
 *.py[cod]
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# macOS
 .DS_Store
